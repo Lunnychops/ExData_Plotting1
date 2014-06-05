@@ -43,7 +43,7 @@ legend('topright', c("Sub_metering_1","Sub_metering_2","Sub_metering_3"),lty = 1
 axis(1, at = c(0,1440,2880), labels = c("Thu", "Fri", "Sat"))
 
 plot(subEPC$Global_reactive_power, type = "l", ylab = 
-             "Global Reactive Power (kilowatts)", xlab = "", xaxt = "n")
+             "Global Reactive Power (kilowatts)",  xlab = "datetime", xaxt = "n")
 
 axis(1, at = c(0,1440,2880), labels = c("Thu", "Fri", "Sat"))
 
